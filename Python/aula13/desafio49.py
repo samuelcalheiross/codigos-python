@@ -1,3 +1,5 @@
+#Tabuada de multiplicação
+
 num = int(input('Digite um número: '))
 print('-'*20)
 print(f'Tabuada do {num}:')

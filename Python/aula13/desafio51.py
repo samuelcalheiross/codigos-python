@@ -1,8 +1,10 @@
-termo_inicial = int(input('Digite o primeiro termo da progressão aritmética: '))
+#Progressão aritmética seuqencia de 10 números
+
+termoInicial = int(input('Digite o primeiro termo da progressão aritmética: '))
 razao = int(input('Digite a razão da progressão aritmética: '))
 
-termo_final = termo_inicial + 11
+termoFinal = termoInicial + 11
 
-print(f'A PA com termo inicial "{termo_inicial}" e razão "{razao}" é a seguinte: ')
-for termos in range(termo_inicial, termo_final, razao):
+print(f'A PA com termo inicial "{termoInicial}" e razão "{razao}" é a seguinte: ')
+for termos in range(termoInicial, termoFinal, razao):
     print(termos, end=' ')
